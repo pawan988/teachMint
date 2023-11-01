@@ -2,9 +2,8 @@
   text-align: center;
   font-family: Arial, sans-serif;
   background-color: #222;
-  color: #fff;
+  color: rgb(90, 221, 199);
   border-radius: 5px;
-  padding: 20px;
   width: 250px;
   margin: 0 auto;
 }
@@ -18,13 +17,9 @@
   font-size: 36px;
 }
 
-.clock-buttons {
-  margin-top: 20px;
-}
-
 .clock-button {
-  background-color: #0074cc;
-  color: #fff;
+  background-color: aqua;
+  color: #000000;
   border: none;
   padding: 10px 20px;
   margin: 0 10px;
@@ -34,9 +29,9 @@
 }
 
 .clock-button:hover {
-  background-color: #0052a4;
+  background-color: aqua;
 }
 
 .clock-button:active {
-  background-color: #003b78;
+  background-color: aqua;
 }
