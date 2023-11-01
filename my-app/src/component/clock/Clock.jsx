@@ -52,7 +52,7 @@ const Clock = () => {
     <div className="clock-container">
       <h1 className="clock-title">Digital Clock</h1>
       <div className="clock-display">
-        <p>Time: {formatTime(isRunning ? startTime : pausedTime)}</p>
+        <p>{formatTime(isRunning ? startTime : pausedTime)}</p>
       </div>
       <div className="clock-buttons">
         <button className="clock-button" onClick={handleStart}>
